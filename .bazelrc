@@ -1,0 +1,10 @@
+# Common Bazel settings
+build --disk_cache=~/.cache/bazel-disk-cache
+build --repository_cache=~/.cache/bazel-repo-cache
+
+# Use Bzlmod
+common --enable_bzlmod
+
+# Output
+build --color=yes
+build --curses=yes

@@ -1,0 +1,4 @@
+module(
+    name = "angular_components_reverse_engineered",
+    version = "0.0.0",
+)
